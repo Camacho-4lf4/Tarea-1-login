@@ -1,0 +1,139 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+}
+body
+{
+padding: 200px;
+background: whitesmoke;
+display: flex;
+flex-direction: column;
+}
+.contenedor-principal
+{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+.contenedor-secundario
+{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+}
+.contenedor1
+{
+    width: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 4px 1px 4px 4px  hsl(204, 43%, 93%);
+}
+.contenedor2
+{  
+width: 100%;
+padding: 20px;
+background: hsl(179, 62%, 43%);
+border-radius: 0px 0px 0px 5px;
+box-shadow: 4px 1px 4px 4px  hsl(204, 43%, 93%);
+}
+.contenedor3
+{  
+    width: 100%;
+    padding: 20px;
+    background: hsl(179, 61%, 48%);
+    border-radius: 0px 0px 5px 0px;
+    padding-right: 50px;
+    box-shadow: 0px 4px 0px 0px  hsl(204, 43%, 93%);
+}
+input[type="submit"]
+{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    border: 1px;
+    color:white;
+    background: hsl(71, 73%, 54%);
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 1px 2px 1px 2px  hsl(249, 10%, 26%, 0.1);
+     
+}
+input[type="submit"]:hover
+{
+    background:hsl(154, 59%, 51%);
+    transition-duration: 1s;
+}
+.titulo1
+{
+font-size: 36px;
+color: hsl(179, 62%, 43%);
+}
+.titulo1-2
+{
+    font-size: 28px;
+    color: hsl(71, 73%, 54%)
+}
+.titulo2
+{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.text
+{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+.text1
+{
+    font-size: 16px;
+    color: hsl(203, 34%, 88%);
+    font-weight: 400;
+}
+.precio
+{
+    font-size: 36px;
+    color: white;
+}
+@media screen and (max-width:800px)
+{
+    .contenedor-principal
+    {
+        margin: auto;
+        width: 100%;
+        display: flex;
+    }
+    .contenedor-secundario
+    {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .contenedor1
+    {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width:650px)
+
+{
+    .contenedor-principal
+    {
+        display: none;
+    }
+}
