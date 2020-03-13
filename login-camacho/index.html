@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/jquery.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <script src="js/funciones.js" language="javascript" type="text/javascript"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+<div class="contenedor-principal">
+<div class="ctn-texto">
+<h1 class="titulo1">Learn to code by watching others</h1>
+<p class="text2">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. </p>
+</div>
+ 
+<div class="ctn-form">
+  <div class="ctn-oferta">
+    <p class="text1"> <a href="#">Try it free 7 days </a> then $20/mo. thereafter</p>
+  </div>
+  <img src="images/usuario.png" alt="" class="logo">
+  <h1 class="titulo">REGISTER</h1>
+  <form action="#" name="formulario" method="POST" onsubmit="return validar()">
+  <label for="">First Name</label>
+  <input type="text" name="first" id="first"> <!--required es otra opcion-->
+  <span class="msg-error"></span>
+  <label for="">Last Name</label>
+  <input type="text" name="last" id="last">
+  <span class="msg-error"></span>
+  <label for="">Email</label>
+  <input type="email" name="email" id="email">
+  <span class="msg-error"></span>
+  <label for="">Password</label>
+  <input type="password" name="password" id="password">
+  <span class="msg-error"></span>
+  <input type="submit" value="CLAIM YOUR FREE TRAIL">
+</form>
+<span class="text-final">By clicking the button, you are agreeing to our
+<a href="#">Terms and Services</a></span>
+</div>
+  
+
+ 
+
+  
+
+ 
+</div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Eduardo Cesar Camacho Rosales</a>.
+    </p>
+  </footer>
+</body>
+</html>
